@@ -1,7 +1,19 @@
-$body-bg:    #1abc9c;
-$navbar-inverse-bg: #bdc3c7;
-$navbar-inverse-link-color: white;
-$brand-primary: #1abc9c;
-$jumbotron-bg: #ecf0f1;
+$body-bg:    				#1abc9c;
+$font-family:				Georgia;
+$navbar-height:				45px;
+$navbar-default-bg:			white;
+$navbar-default-brand-color:#1abc9c;
+$brand-primary: 			#1abc9c;
+$jumbotron-bg: 				#ecf0f1;
+
+
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
